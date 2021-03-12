@@ -1,7 +1,9 @@
 const containerData = document.getElementById("container-data");
 
 const getData = () => {
-  fetch("../src/data/db.json")
+  fetch(
+    "https://github.com/PauloSpiguel/ChallangeBankBest/blob/ad1ac6ee0038dc9d6f02613bea5f36d10b735e85/src/data/db.json"
+  )
     .then((response) => response.json())
     .then((response) => {
       response.forEach((item) => {
@@ -107,5 +109,4 @@ const showInputSearch = (event) => {
 (() => {
   console.log("Loading table.js...");
   getData();
-  console.log(containerData);
 })();
