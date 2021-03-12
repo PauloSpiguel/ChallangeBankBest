@@ -1,0 +1,122 @@
+main {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main .search-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  color: var(--primary);
+  font-weight: 500;
+
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+main .search-container input {
+  padding: 0 0.5rem;
+  width: 100%;
+  border-radius: 16px;
+}
+
+main .search-container input:focus {
+  outline-color: var(--primary);
+  outline-width: 0;
+  box-shadow: 0 0 3px var(--primary);
+}
+
+main .search-container svg {
+  color: var(--primary);
+  transform: scale(1.2);
+}
+
+main .search-container button {
+  background: transparent;
+}
+
+#movements-table {
+  width: 100%;
+  font: 100% sans-serif;
+  empty-cells: show;
+}
+
+#movements-table thead {
+  border-bottom: 1px solid var(--text);
+}
+
+#movements-table thead th {
+  font-weight: 600;
+  padding: 0.5rem 0;
+  border-top: 0;
+}
+
+#movements-table .summary {
+  border-bottom: 0;
+}
+
+#movements-table .summary button {
+  background: transparent;
+}
+
+#movements-table .summary button svg {
+  font-size: 10px;
+  color: var(--primary);
+}
+
+#movements-table .card-body svg {
+  color: var(--primary);
+}
+
+#movements-table .card-body button {
+  background: transparent;
+  display: flex;
+  width: fit-content;
+  margin-left: auto;
+}
+
+#movements-table .card-body {
+  border-radius: 16px;
+}
+
+#movements-table .card-body > span {
+  color: var(--primary);
+}
+
+#movements-table .card-body img {
+  width: 20px;
+  height: 20px;
+}
+
+#movements-table td {
+  padding: 0.5rem 0;
+  border: 0;
+  color: var(--gray);
+}
+
+#movements-table .hiddenRow {
+  padding: 0 !important;
+}
+
+.container-contents {
+  display: flex;
+}
+
+.container-contents > div {
+  flex: 1;
+}
+
+.container-contents .col > div {
+  margin: 1rem 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-contents .col > div > strong {
+  min-width: 200px;
+}

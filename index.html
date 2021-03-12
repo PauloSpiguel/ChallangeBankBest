@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap" />
+  <link rel="stylesheet" type="text/css" href="./src/css/global.css" />
+  <link rel="stylesheet" type="text/css" href="./src/css/index.css" />
+  <title>Best Bank | Table Information</title>
+</head>
+
+<body>
+
+  <main>
+    <div class="search-container">
+      <button type="button" onclick="showInputSearch(this)">
+        <i class="fas fa-search"></i>
+      </button>
+      <span>Pesquisar Movimentos</span>
+      <input type="text" placeholder="Digite para pesquisar movimentos" style="display:none"></input>
+    </div>
+
+    <section class="table-container">
+      <table id="movements-table">
+        <thead>
+          <tr>
+            <th scope="col">Data Movimento</th>
+            <th scope="col">Data Valor</th>
+            <th scope="col">Tipo de Operação</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Valor</th>
+            <th scope="col">Saldo</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody id="container-data">
+          <!-- Render by JS - DataJson -->
+        </tbody>
+
+      </table>
+    </section>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
+  <script src="src/js/table.js"></script>
+</body>
+
+</html>

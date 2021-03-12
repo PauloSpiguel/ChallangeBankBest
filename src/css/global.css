@@ -1,0 +1,48 @@
+:root {
+  --primary: #3368bb;
+  --text: #202020;
+  --title: #212529;
+  --background: #fdfffc;
+  --red: #f94144;
+  --green: #2b9348;
+  --white: #fff;
+  --gray: #909294;
+  --blue: #007bff;
+  --orange: #f3722c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  color: var(--text);
+}
+
+body {
+  background: var(--background);
+  height: 100%;
+}
+
+body,
+button,
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
