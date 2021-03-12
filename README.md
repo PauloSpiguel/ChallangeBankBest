@@ -25,7 +25,7 @@
 </p>
 
 <h3 align="center">
-    <a href="https://rocketmusics.herokuapp.com/">View Demonstration</a>
+    <a href="https://paulospiguel.github.io/ChallangeBankBest/">View Demonstration</a>
 <h3 >
 
 ## Lib used
