@@ -2,7 +2,7 @@ const containerData = document.getElementById("container-data");
 
 const getData = () => {
   fetch(
-    "https://github.com/PauloSpiguel/ChallangeBankBest/blob/ad1ac6ee0038dc9d6f02613bea5f36d10b735e85/src/data/db.json"
+    "https://my-json-server.typicode.com/PauloSpiguel/ChallangeBankBest/movements"
   )
     .then((response) => response.json())
     .then((response) => {
@@ -73,7 +73,7 @@ const getData = () => {
                   </div>
                 </div>
               </div>
-              <button type="button" onclick="window.print()"><img src="/src/static/printer.svg"
+              <button type="button" onclick="window.print()"><img src="src/static/printer.svg"
                   alt="Print"></button>
             </div>
           </div>
