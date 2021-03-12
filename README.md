@@ -12,7 +12,6 @@
   </p>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
     <br />
     <a href="https://github.com/PauloSpiguel/ChallangeBankBest"><strong>Explore the docs »</strong></a>
     <br />
@@ -25,7 +24,9 @@
   </p>
 </p>
 
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/paulo-spiguel/]
+<h3 align="center">
+    <a href="https://rocketmusics.herokuapp.com/">View Demonstration</a>
+<h3 >
 
 ## Lib used
 
